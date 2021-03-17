@@ -1,0 +1,34 @@
+10  CLS
+20  OUT &H3C8, 0: OUT &H3C9, 0: OUT &H3C9, 0: OUT &H3C9, 20
+30  COLOR 1
+40  FOR I% = 1 TO 21
+50   LOCATE 2 + I%, 2: PRINT CHR$(178)
+60   LOCATE 2 + I%, 39: PRINT CHR$(178)
+70  NEXT I%
+80  FOR I% = 2 TO 39
+90      LOCATE 2, I%: PRINT CHR$(223)
+100     LOCATE 23, I%: PRINT CHR$(220)
+110 NEXT I%
+120 COLOR 9
+130 REM LOCATE 3, 16 
+135 PRINT CHR$(34); "MY BONNIE"; CHR$(34)
+140 FOR L% = 1 to 30000 : NEXT L%
+150 FOR I% = 1 TO 34
+170     IF I% =  1 THEN LOCATE 5, 5
+180     IF I% =  10 THEN LOCATE 10, 5
+190     IF I% =  18 THEN LOCATE 15, 5
+200     IF I% =  27 THEN LOCATE 20, 5
+220     READ NO%, DU%, WO$
+230     SOUND NO%, DU%: 
+236     PRINT WO$;
+240 NEXT I%
+250 FOR I2 = 1 TO 20000 : NEXT I2
+260 LOCATE 23, 16: PRINT "Thank You!"
+270 FOR I2 = 1 TO 40000 : NEXT I2
+280 SYSTEM
+290 REM
+300 DATA 392,8,"My ",659,8,"Bon-",587,8,"nie ",523,8,"lies ",587,8,"O-",523,8,"Ver ",440,8,"the "
+310 DATA 392,8,"O-",330,32,"cean ",392,8,"My ",659,8,"Bon-",587,8,"nie ",523,8,"lies "
+320 DATA 523,8,"O-",494,8,"ver ",523,8,"the ",587,40,"sea ",392,8,"My ",659,8,"Bon-",587,8,"nie"
+330 DATA 523,8," lies ",587,8,"O-",523,8,"ver ",440,8,"the ",392,8,"O-",330,32,"cean ",392,8,"Oh "
+340 DATA 440,8,"bring ",587,8,"back ",523,8,"my ",494,8,"Bon-",440,8,"nie ",494,8,"to ",523,32,"me..!"

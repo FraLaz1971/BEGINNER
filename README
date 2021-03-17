@@ -1,0 +1,65 @@
+# date: 2021-03-17
+# author: fralaz1971
+# this are simple BASIC language programs
+# they have eductional purpose whilst
+# they can work on modern OS like MS windows 10
+# linux kernel 4.* or 5.* or MaxOS.
+# they has been inspired by programming book
+
+99BOTTL.bas
+accuracy.bas
+APPADIP.BAS
+BAGLES.BAS
+BBALL.BAS
+BBLSORT.BAS
+BON.BAS
+BONNYE.BAS
+BUBBL1.BAS
+C2F.BAS
+CIAO.BAS
+DEC2HEX.BAS
+DISTANCE.BAS
+DISTNOFN.BAS
+DOLOOP.BAS
+DRAW1.BAS
+DRAW2.BAS
+DRAW3.BAS
+DRAW4.BAS
+DSTNCES.BAS
+ERR.BAS
+EVENTTI.BAS
+FOR01.BAS
+FRUITS.BAS
+GRAPHDEMO.BAS
+GWGRAPH0.BAS
+I2ELM.BAS
+indovinello.bas
+in.txt
+loop010.bas
+LOOP1.BAS
+LOST.BAS
+MAZE.BAS
+MENDEL.BAS
+MUSIC.BAS
+ONGOTO.BAS
+OUT.TXT
+PIGA.BAS
+PIG.BAS
+PRNCOM.BAS
+PRNSTARS.BAS
+Q99BOTTL.bas
+QBCIRCLE.bas
+QGRAPH1.bas
+README
+READMEex01.txt
+READS.BAS
+SALARY1.BAS
+SALARY2.BAS
+SQUARE0.BAS
+SUMOFN.BAS
+TAB1.BAS
+TEN2HEX.BAS
+TEN2HEXold.BAS
+tryrand.bas
+VEGP.BAS
+WIN.BAS

@@ -1,0 +1,24 @@
+10   GOSUB 100
+20   INPUT "Enter a decimal integer number";A$
+30   PRINT "Your input:";A$;" length";LEN(A$)
+40   FOR I = 0 TO LEN(A$)
+42     K$ = MID$(I,1)
+50     REM GOSUB 160
+55     PRINT "K$ is ",K$
+60   NEXT I
+90   END
+100  REM SUBROUTINE TO CONVERT FROM DEC. (0 TO 15)
+120  REM IN HEX. (FROM 0 TO F)
+130  DATA 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+140  DIM ES$(16)
+150  FOR I = 0 TO 15:READ ES$(I):NEXT
+155  RETURN
+160  REM NOW ES$(K) FROM DEC. TO HEX.
+200  IF K < 0 OR K > 15 THEN GOSUB 2000
+210  PRINT ES$(K);" ";
+220  RETURN
+2000 PRINT k;": input not allowed"
+2010 FOR snd = 500 TO 100 STEP -10
+2020    SOUND snd, .5
+2030 NEXT snd
+2040 RETURN

@@ -1,0 +1,4 @@
+10 CLS
+20 PRINT CHR$(129 + RND(1));
+40 GOTO 20
+
